@@ -1,14 +1,15 @@
-# Project
+# Trusted Signing Client Tools Installer
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This MSI package streamlines the installation process for the Trusted Signing client tools for Windows SDK SignTool.exe and all of the dependencies. The installer aims to achieve a one-click installation process on Windows nodes.
 
-As the maintainer of this project, please make a few updates:
+Summary of installer actions:
+- Bundles the Microsoft Trusted Signing client tools DLLs and all necessary Visual C++ dlib dependencies
+- Installs the latest .NET runtime on the client’s machine.
+- Incorporates the latest Windows SDK, which houses the essential signtool.exe and its dependencies.
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+When users decide to uninstall the package the uninstall action removes the Trusted Signing tools, and preserves the .NET runtime and Windows SDK packages.
+
+For more information on Trusted Signing refer to [MS Learn Trusted Signing Documentation](https://learn.microsoft.com/en-us/azure/trusted-signing/).
 
 ## Contributing
 
