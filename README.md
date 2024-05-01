@@ -9,6 +9,8 @@ Summary of installer actions:
 
 When users decide to uninstall the package the uninstall action removes the Trusted Signing tools, and preserves the .NET runtime and Windows SDK packages.
 
+Please refer MS Learn documentation to [Invoke SignTool to sign a file](https://learn.microsoft.com/en-us/azure/trusted-signing/how-to-signing-integrations#invoke-signtool-to-sign-a-file).
+
 For more information on Trusted Signing refer to [MS Learn Trusted Signing Documentation](https://learn.microsoft.com/en-us/azure/trusted-signing/).
 
 ## Contributing
