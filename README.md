@@ -1,17 +1,17 @@
-# Trusted Signing Client Tools Installer
+# Artifact Signing Client Tools Installer
 
-This MSI package streamlines the installation process for the Trusted Signing client tools for Windows SDK SignTool.exe and all of the dependencies. The installer aims to achieve a one-click installation process on Windows nodes.
+This MSI package streamlines the installation process for the Artifact Signing client tools for Windows SDK SignTool.exe and all of the dependencies. The installer aims to achieve a one-click installation process on Windows nodes.
 
 Summary of installer actions:
-- Bundles the Microsoft Trusted Signing client tools DLLs and all necessary Visual C++ dlib dependencies
+- Bundles the Microsoft Artifact Signing client tools DLLs and all necessary Visual C++ dlib dependencies
 - Installs the latest .NET runtime on the client’s machine.
 - Incorporates the latest Windows SDK, which houses the essential signtool.exe and its dependencies.
 
-When users decide to uninstall the package the uninstall action removes the Trusted Signing tools, and preserves the .NET runtime and Windows SDK packages.
+When users decide to uninstall the package the uninstall action removes the Artifact Signing tools, and preserves the .NET runtime and Windows SDK packages.
 
-Please refer MS Learn documentation to [Invoke SignTool to sign a file](https://learn.microsoft.com/en-us/azure/trusted-signing/how-to-signing-integrations#invoke-signtool-to-sign-a-file).
+Please refer MS Learn documentation to [Invoke SignTool to sign a file](https://learn.microsoft.com/en-us/azure/artifact-signing/how-to-signing-integrations#invoke-signtool-to-sign-a-file).
 
-For more information on Trusted Signing refer to [MS Learn Trusted Signing Documentation](https://learn.microsoft.com/en-us/azure/trusted-signing/).
+For more information on Artifact Signing refer to [MS Learn Artifact Signing Documentation](https://learn.microsoft.com/en-us/azure/artifact-signing/).
 
 ## Contributing
 
@@ -39,4 +39,4 @@ Any use of third-party trademarks or logos are subject to those third-party's po
 
 If you don't specify an exact path for the artifacts, 
 they will be installed in the AppData Local directory of your Windows system: 
-%AppData%\Local\Microsoft\TrustedSigningClientTools.
+%AppData%\Local\Microsoft\ArtifactSigningClientTools.
