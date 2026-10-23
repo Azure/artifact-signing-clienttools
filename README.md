@@ -37,6 +37,11 @@ Any use of third-party trademarks or logos are subject to those third-party's po
 
 # Installation Path
 
-If you don't specify an exact path for the artifacts, 
-they will be installed in the AppData Local directory of your Windows system: 
-%AppData%\Local\Microsoft\ArtifactSigningClientTools.
+If you don't specify an exact path for the artifacts,
+they will be installed in the AppData Local directory of your Windows system:
+
+```text
+%LOCALAPPDATA%\Microsoft\MicrosoftArtifactSigningClientTools
+```
+
+This typically resolves to `C:\Users\<username>\AppData\Local\Microsoft\MicrosoftArtifactSigningClientTools`.
